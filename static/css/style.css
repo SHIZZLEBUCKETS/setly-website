@@ -382,17 +382,10 @@ section { padding: 96px 0; }
 
 /* Fake app screenshot placeholder */
 .app-preview {
-  background: var(--navy-light);
-  border: 1px solid var(--card-border);
   border-radius: var(--radius);
-  aspect-ratio: 4/3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--gray-500);
-  font-size: 0.875rem;
   position: relative;
   overflow: hidden;
+  line-height: 0;
 }
 
 .app-preview::before {
